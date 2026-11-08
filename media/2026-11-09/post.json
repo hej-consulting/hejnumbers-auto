@@ -1,0 +1,62 @@
+{
+ "topic": "oldest universities in Europe",
+ "title": "Oldest universities in Europe",
+ "hook": "Which one is older: Oxford or Paris?",
+ "items": [
+  {
+   "label": "Univ. of Bologna",
+   "value": "1088",
+   "number": 938,
+   "sources": [
+    "https://en.wikipedia.org/wiki/University_of_Bologna",
+    "https://bologna.travel/university-of-bologna/"
+   ]
+  },
+  {
+   "label": "Univ. of Oxford",
+   "value": "c. 1096",
+   "number": 930,
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_medieval_universities",
+    "https://euhelpers.pl/blog/europes-oldest-universities"
+   ]
+  },
+  {
+   "label": "Univ. of Paris",
+   "value": "c. 1150",
+   "number": 876,
+   "sources": [
+    "https://en.wikipedia.org/wiki/University_of_Paris",
+    "https://euhelpers.pl/blog/europes-oldest-universities"
+   ]
+  },
+  {
+   "label": "Univ. of Cambridge",
+   "value": "1209",
+   "number": 817,
+   "sources": [
+    "https://thecollegepost.com/oldest-universities/",
+    "https://thecampusreview.com/history-and-culture/oldest-universities-in-europe/"
+   ]
+  }
+ ],
+ "fact": "Cambridge began in 1209 when scholars fled Oxford after a clash with local townspeople.",
+ "fact_sources": [
+  "https://www.uopeople.edu/blog/revealed-oldest-universities-in-the-world/",
+  "https://thecampusreview.com/history-and-culture/oldest-universities-in-europe/"
+ ],
+ "source": "Wikipedia & university histories",
+ "captions": {
+  "instagram": "Some of Europe's universities are almost 1,000 years old! 🎓 Can you guess which one started it all?\n\nWhich of these four would you have wanted to study at? Tell us below 👇\n\nSource: Wikipedia, university histories (founding years are traditional or approximate)\n\n#top4 #hejnumbers #history #universities #europe #didyouknow",
+  "tiktok": "Which university is the oldest in Europe? 🎓 Did you guess right? #hejnumbers #history #universities #top4",
+  "linkedin": "Europe's oldest universities date back almost a thousand years, with Bologna traditionally founded in 1088, followed by Oxford (c. 1096), Paris (c. 1150) and Cambridge (1209). Founding dates are traditional or approximate, but the order is widely agreed. Which historic institution do you think has shaped modern education the most?\n\nSource: Wikipedia, university histories\n\n#history #education #universities"
+ },
+ "bg": "blaugrau",
+ "format": "reel",
+ "files": {
+  "reel": "reel.mp4",
+  "reel_thumb": "reel_thumb.jpg",
+  "image": "image.jpg"
+ },
+ "date": "2026-11-09"
+}

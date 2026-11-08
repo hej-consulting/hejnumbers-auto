@@ -6,7 +6,7 @@ from PIL import Image, ImageDraw, ImageFont
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FONT_DIR = os.path.join(ROOT, "fonts")
 
-BLUE = (62, 76, 255)
+BLUE = (116, 102, 196)
 BLACK = (24, 24, 27)
 WHITE = (255, 255, 255)
 GREY_TEXT = (150, 150, 155)

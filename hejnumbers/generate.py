@@ -58,11 +58,16 @@ def main():
     post["format"] = fmt
     folder = os.path.join(ROOT, "media", day)
     os.makedirs(folder, exist_ok=True)
+    # Ältere Dateien vom selben Tag entfernen (z. B. von Testläufen)
+    for old in os.listdir(folder):
+        os.remove(os.path.join(folder, old))
+    # Eindeutige Dateinamen pro Lauf, damit Buffer nie eine zwischengespeicherte alte Datei abholt
+    stamp = now.strftime("%H%M%S")
     files = {}
-    files["reel"], files["reel_thumb"] = [os.path.basename(p) for p in design.render_reel(post, os.path.join(folder, "reel.mp4"))]
-    files["image"] = os.path.basename(design.render_image(post, os.path.join(folder, "image.jpg"))[0])
+    files["reel"], files["reel_thumb"] = [os.path.basename(p) for p in design.render_reel(post, os.path.join(folder, f"reel_{stamp}.mp4"))]
+    files["image"] = os.path.basename(design.render_image(post, os.path.join(folder, f"image_{stamp}.jpg"))[0])
     if fmt == "carousel":
-        files["carousel"] = [os.path.basename(p) for p in design.render_carousel(post, folder, "slide")]
+        files["carousel"] = [os.path.basename(p) for p in design.render_carousel(post, folder, f"slide_{stamp}")]
     post["files"] = files
     post["date"] = day
     with open(os.path.join(folder, "post.json"), "w", encoding="utf-8") as f:

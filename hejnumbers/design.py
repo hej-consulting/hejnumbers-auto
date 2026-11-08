@@ -93,11 +93,18 @@ def draw_footer(d, H, bg, source):
     d.text((R, fy + 60), "Source: " + source, font=font("Regular", 24), fill=(70, 70, 75), anchor="rm")
 
 
-def draw_card(post, H=1350, y0=90, title_a=1.0, bars=(1, 1, 1, 1), fact_a=1.0):
+def draw_card(post, H=1350, y0=90, title_a=1.0, bars=(1, 1, 1, 1), fact_a=1.0, hook_a=0.0):
     """Zeichnet die Top-4-Karte. bars = Fortschritt je Balken (Platz 1..4), 0..1."""
     bg, dark = BACKGROUNDS[post["bg"]]
     im = Image.new("RGB", (W, H), bg)
     d = ImageDraw.Draw(im)
+    if hook_a > 0 and post.get("hook"):
+        # Hook-Frage oben im Reel, sichtbar ab dem ersten Bild
+        hf = font("SemiBold", 62)
+        hy = y0 - 230
+        for ln in wrap(d, post["hook"], hf, R - L)[:2]:
+            d.text((L, hy), ln, font=hf, fill=mix(bg, BLUE, hook_a))
+            hy += 76
     y = y0
     draw_label(d, L, y)
     y += 80
@@ -200,24 +207,35 @@ def render_reel(post, path, fps=30, seconds=9):
     """9-s-Reel: Titel, dann Balken von Platz 4 zu Platz 1, dann Fun Fact."""
     H, y0 = 1920, 380
     frames = fps * seconds
-    cmd = ["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24",
-           "-s", f"{W}x{H}", "-r", str(fps), "-i", "-",
-           "-c:v", "libx264", "-pix_fmt", "yuv420p", "-preset", "medium", "-crf", "20",
-           "-movflags", "+faststart", path]
-    proc = subprocess.Popen(cmd, stdin=subprocess.PIPE)
     # Zeitplan in Sekunden: Platz 4 ab 1.0, Platz 3 ab 2.4, Platz 2 ab 3.8, Platz 1 ab 5.2
     starts = {3: 1.0, 2: 2.4, 1: 3.8, 0: 5.2}
+    from . import audio
+    wav = path.replace(".mp4", "_audio.wav")
+    from datetime import date
+    style, shift = audio.pick_style(int(post.get("music_day", date.today().toordinal())))
+    print(f"Musik: {style} (Tonart {shift:+d})")
+    audio.make_track(wav, seconds=seconds, bar_starts=(starts[3], starts[2], starts[1], starts[0]), fact_at=6.8,
+                     style=style, transpose=shift)
+    cmd = ["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24",
+           "-s", f"{W}x{H}", "-r", str(fps), "-i", "-", "-i", wav,
+           "-map", "0:v", "-map", "1:a",
+           "-c:v", "libx264", "-pix_fmt", "yuv420p", "-preset", "medium", "-crf", "20",
+           "-c:a", "aac", "-b:a", "192k", "-shortest",
+           "-movflags", "+faststart", path]
+    proc = subprocess.Popen(cmd, stdin=subprocess.PIPE)
     dur = 1.1
     for f in range(frames):
         t = f / fps
-        title_a = min(1.0, t / 0.6)
+        title_a = 1.0  # Titel und Hook sofort sichtbar, kein leeres erstes Bild
+        hook_a = 1.0 if t < 5.0 else max(0.0, 1 - (t - 5.0) / 0.4)  # verschwindet, wenn Platz 1 kommt
         bars = [min(1.0, max(0.0, (t - starts[i]) / dur)) for i in range(4)]
         fact_a = min(1.0, max(0.0, (t - 6.8) / 0.5))
-        im = draw_card(post, H=H, y0=y0, title_a=title_a, bars=bars, fact_a=fact_a)
+        im = draw_card(post, H=H, y0=y0, title_a=title_a, bars=bars, fact_a=fact_a, hook_a=hook_a)
         proc.stdin.write(im.tobytes())
     proc.stdin.close()
     if proc.wait() != 0:
         raise RuntimeError("ffmpeg fehlgeschlagen")
+    os.remove(wav)
     # Vorschaubild = letzter Frame
     thumb = path.replace(".mp4", "_thumb.jpg")
     draw_card(post, H=H, y0=y0).save(thumb, "JPEG", quality=92)

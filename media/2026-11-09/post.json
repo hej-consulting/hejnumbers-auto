@@ -1,63 +1,63 @@
 {
- "topic": "longest reigning monarchs",
- "title": "Longest-reigning monarchs",
- "subtitle": "Days on the throne",
- "hook": "Can you guess who reigned longest?",
+ "topic": "first modern Olympic host cities",
+ "title": "First modern Olympic hosts",
+ "subtitle": "Year of the Games",
+ "hook": "Can you name the first 4 modern Olympic cities?",
  "items": [
   {
-   "label": "Louis XIV (France)",
-   "value": "26,407",
-   "number": 26407,
+   "label": "Athens",
+   "value": "1896",
+   "number": 1896,
    "sources": [
-    "https://en.wikipedia.org/wiki/List_of_longest-reigning_monarchs",
-    "https://www.guinnessworldrecords.com/world-records/longest-ever-reigns"
+    "https://www.olympics.com/en/news/top-reasons-why-the-athens-1896-olympics-were-important-for-modern-sport",
+    "https://www.britannica.com/sports/Olympic-Games"
    ]
   },
   {
-   "label": "Elizabeth II (UK)",
-   "value": "25,782",
-   "number": 25782,
+   "label": "Paris",
+   "value": "1900",
+   "number": 1900,
    "sources": [
-    "https://en.wikipedia.org/wiki/List_of_longest-reigning_monarchs",
-    "https://www.historyexpose.com/people/longest-reigning-monarchs-history"
+    "https://www.britannica.com/event/Paris-1900-Olympic-Games",
+    "https://guides.loc.gov/chronicling-america-olympics"
    ]
   },
   {
-   "label": "Bhumibol (Thailand)",
-   "value": "25,694",
-   "number": 25694,
+   "label": "St. Louis",
+   "value": "1904",
+   "number": 1904,
    "sources": [
-    "https://en.wikipedia.org/wiki/List_of_longest-reigning_monarchs",
-    "https://www.freemalaysiatoday.com/category/leisure/2022/09/10/6-of-the-longest-reigning-monarchs-in-history"
+    "https://guides.loc.gov/chronicling-america-olympics",
+    "https://architectureofthegames.net/olympic-host-cities/"
    ]
   },
   {
-   "label": "Johann II (Liecht.)",
-   "value": "25,658",
-   "number": 25658,
+   "label": "London",
+   "value": "1908",
+   "number": 1908,
    "sources": [
-    "https://en.wikipedia.org/wiki/List_of_longest-reigning_monarchs",
-    "https://www.historyexpose.com/people/longest-reigning-monarchs-history"
+    "https://guides.loc.gov/chronicling-america-olympics",
+    "https://architectureofthegames.net/olympic-host-cities/"
    ]
   }
  ],
- "fact": "Louis XIV became king at just 4 years old and later outlived both his son and his grandson.",
+ "fact": "At Paris 1900, 22 women became the first to compete at an Olympics, and some didn't know it was the Olympics.",
  "fact_sources": [
-  "https://www.worldatlas.com/history/5-longest-reigning-monarchs-in-history.html",
-  "https://history.as.uky.edu/reign-louis-xiv-1643-1715-overview"
+  "https://www.olympics.com/en/news/five-historic-firsts-for-female-olympians",
+  "https://www.britannica.com/sports/Olympic-Games"
  ],
- "source": "Wikipedia, Guinness World Records",
+ "source": "Olympics.com / Britannica",
  "captions": {
-  "instagram": "Four rulers sat on their thrones for more than 70 years! 👑 Louis XIV of France leads with 72 years and 110 days (26,407 days).\n\nWhich of these reigns surprised you most? Tell us in the comments 👇\n\nSource: Wikipedia, Guinness World Records (sovereign states only)\n\n#top4 #hejnumbers #history #monarchs #didyouknow #historyfacts",
-  "tiktok": "Who reigned the longest in history? 👑 Louis XIV: 72 years and 110 days! Did you guess it? #hejnumbers #history #top4 #didyouknow",
-  "linkedin": "Four monarchs of sovereign states each reigned for more than 70 years. Louis XIV of France holds the record at 72 years and 110 days (26,407 days), ahead of Elizabeth II, Bhumibol Adulyadej and Johann II of Liechtenstein. Which long-serving leader in history do you find most remarkable?\n\nSource: Wikipedia, Guinness World Records\n\n#history #leadership #hejnumbers"
+  "instagram": "Where did the modern Olympics begin? 🏅 Four cities started it all, from Athens in 1896 to London in 1908.\n\nWhich of these Games would you have loved to attend? Tell us in the comments!\n\nSource: Olympics.com, Britannica, Library of Congress\n\n#top4 #hejnumbers #olympics #history #didyouknow #sportshistory",
+  "tiktok": "The first 4 modern Olympic cities, in order! Did you know #1? 🏅 #hejnumbers #olympics #history #top4",
+  "linkedin": "The modern Olympic Games began in Athens in 1896. They then moved to Paris (1900), St. Louis (1904) and London (1908). Paris 1900 was also the first Games where women competed. Which early Olympic milestone surprises you most?\n\nSource: Olympics.com, Britannica\n\n#history #olympics #hejnumbers"
  },
- "bg": "grau",
+ "bg": "sand",
  "format": "reel",
  "files": {
-  "reel": "reel.mp4",
-  "reel_thumb": "reel_thumb.jpg",
-  "image": "image.jpg"
+  "reel": "reel_003745.mp4",
+  "reel_thumb": "reel_003745_thumb.jpg",
+  "image": "image_003745.jpg"
  },
  "date": "2026-11-09"
 }

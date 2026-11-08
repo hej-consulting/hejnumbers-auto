@@ -1,0 +1,23 @@
+{
+  "model": "claude-sonnet-5-5",
+  "post_time_berlin": "17:00",
+  "channels": {
+    "instagram": "",
+    "tiktok": "",
+    "linkedin": ""
+  },
+  "weekly_formats": {
+    "monday": "reel",
+    "tuesday": "carousel",
+    "wednesday": "reel",
+    "thursday": "image",
+    "friday": "reel",
+    "saturday": "carousel",
+    "sunday": "reel"
+  },
+  "categories": [
+    "geography", "space", "nature and animals", "history", "economy",
+    "human body", "science", "cities and buildings", "oceans and water", "countries"
+  ],
+  "max_attempts": 3
+}

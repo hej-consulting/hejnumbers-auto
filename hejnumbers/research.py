@@ -43,7 +43,13 @@ Rules:
 - Choose rankings where reputable sources agree on the order. Avoid topics where the ranking is disputed or depends heavily on definitions.
 - Avoid politics, religion, violence, health advice and anything that could hurt or offend.
 - The fun fact must also be confirmed by 2 sources.
-- Labels max 22 characters, values max 11 characters (e.g. "6,650 km", "1.42 B", "464 °C").
+- Units: ALWAYS metric (m, km, km², kg, t, °C, km/h). Never feet, miles, inches, pounds or °F.
+- Every value must make clear what it is. Either the value carries its unit ("828 m", "6,650 km", "1.42 B people")
+  or, for years, counts or rankings without a unit, the subtitle says what the number means ("Year founded", "Number of moons").
+- The subtitle is always filled: a short line under the title that names the measure and unit, e.g. "Height in metres",
+  "Area in km²", "Year founded", "Population in billions".
+- Approximate values: write "~1096" (no "c.", no "about").
+- Labels max 22 characters, values max 10 characters.
 - Answer ONLY with JSON, no other text."""
 
 RESEARCH_PROMPT = """Category for today: {category}
@@ -53,6 +59,7 @@ Return JSON:
 {{
   "topic": "short internal topic name",
   "title": "Post title, max 40 characters, e.g. 'Longest rivers'",
+  "subtitle": "What the numbers mean, with unit, max 32 characters, e.g. 'Year founded' or 'Height in metres'",
   "hook": "Short hook for slide 1, e.g. 'Can you guess #1?'",
   "items": [
     {{"label": "...", "value": "...", "number": 0.0, "sources": ["url1", "url2"]}},
@@ -100,7 +107,7 @@ def valid_shape(post):
             assert it["label"] and it["value"]
             assert len(it.get("sources", [])) >= 2
         assert len(post.get("fact_sources", [])) >= 2
-        assert post["title"] and post["fact"] and post["source"]
+        assert post["title"] and post["fact"] and post["source"] and post.get("subtitle")
         for k in ("instagram", "tiktok", "linkedin"):
             assert post["captions"][k]
         return True

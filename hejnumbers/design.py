@@ -54,10 +54,11 @@ def bar_widths(d, post, full):
         span = max(nums) - lo or 1
         nums = [n - lo + span * 0.25 for n in nums]
     mx = max(nums) or 1
-    widths = []
+    widths, mins, maxs = [], [], []
     for item, n in zip(post["items"], nums):
         min_w = d.textlength(item["label"], font=lf) + 70
-        max_w = full - d.textlength(item["value"], font=vf) - 80
+        max_w = full - d.textlength(item["value"], font=vf) - 100  # Abstand Balken -> Wert
+        mins.append(min_w); maxs.append(max_w)
         widths.append(max(min_w, min(max_w, full * n / mx)))
     desc = nums[0] >= nums[-1]
     if desc:
@@ -66,7 +67,8 @@ def bar_widths(d, post, full):
     else:
         for i in range(1, len(widths)):
             widths[i] = max(widths[i], widths[i - 1])
-    return widths
+    # Jeder Wert behält immer seinen Abstand zum Balken
+    return [max(mn, min(mx_, w)) for w, mn, mx_ in zip(widths, mins, maxs)]
 
 
 def draw_logo(d, x, y, bg):
@@ -103,8 +105,18 @@ def draw_card(post, H=1350, y0=90, title_a=1.0, bars=(1, 1, 1, 1), fact_a=1.0):
     for ln in wrap(d, post["title"], tf, R - L):
         d.text((L, y), ln, font=tf, fill=mix(bg, BLACK, title_a))
         y += 86
+    if post.get("subtitle"):
+        d.text((L, y + 8), post["subtitle"], font=font("Regular", 36), fill=mix(bg, (70, 70, 75), title_a))
+        y += 60
     y += 30
-    bx0, bx1, bh, step = 150, R, 124, 150
+    # Platz bis zum Footer berechnen, Balken bei Bedarf enger setzen
+    ff = font("Regular", 34)
+    fact_lines = wrap(d, post["fact"], ff, R - L - 80)
+    fact_h = 70 + len(fact_lines) * 46 + 30
+    avail = (H - 160) - y - 20 - fact_h
+    step = max(128, min(150, avail / 4))
+    bh = step - 26
+    bx0, bx1 = 150, R
     widths = bar_widths(d, post, bx1 - bx0)
     lf, vf = font("Regular", 40), font("Medium", 40)
     num_col = (40, 44, 54) if post["bg"] == "blaugrau" else BLACK
@@ -123,9 +135,8 @@ def draw_card(post, H=1350, y0=90, title_a=1.0, bars=(1, 1, 1, 1), fact_a=1.0):
             d.text((bx1 - 34, top + bh / 2), item["value"], font=vf, fill=mix(WHITE, BLACK, min(1, (p - 0.5) * 2)), anchor="rm")
     y += 4 * step + 20
     if fact_a > 0:
-        ff = font("Regular", 34)
-        lines = wrap(d, post["fact"], ff, R - L - 80)
-        box_h = 70 + len(lines) * 46 + 30
+        lines = fact_lines
+        box_h = fact_h
         d.rectangle([L, y, R, y + box_h], fill=mix(bg, BLACK, fact_a))
         d.text((L + 40, y + 36), "DID YOU KNOW?", font=font("SemiBold", 22), fill=mix(BLACK, GREY_TEXT, fact_a))
         for j, ln in enumerate(lines):

@@ -54,7 +54,7 @@ def main():
             print("Kein Thema hat den Faktencheck bestanden. Heute kein Post.")
             sys.exit(1)
 
-    post["bg"] = design.BG_ORDER[len(history) % 3]
+    post["bg"] = ["sand", "grau"][len(history) % 2]
     post["format"] = fmt
     folder = os.path.join(ROOT, "media", day)
     os.makedirs(folder, exist_ok=True)

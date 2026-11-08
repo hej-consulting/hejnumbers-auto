@@ -1,58 +1,37 @@
 {
- "topic": "Apollo missions total moonwalk time",
- "title": "Longest Apollo moonwalk totals",
- "subtitle": "Total moonwalk time in hours",
- "hook": "Which Apollo mission spent the longest outside on the Moon?",
+ "topic": "longest rivers",
+ "title": "Longest rivers",
+ "hook": "Can you guess #1?",
  "items": [
   {
-   "label": "Apollo 17 (1972)",
-   "value": "22.1 h",
-   "number": 22.1,
-   "sources": [
-    "https://www.nasa.gov/missions/apollo/apollo-17-mission-details/",
-    "https://www.lpi.usra.edu/lunar/missions/apollo/apollo_17/"
-   ]
+   "label": "Nile",
+   "value": "6,650 km",
+   "number": 6650
   },
   {
-   "label": "Apollo 16 (1972)",
-   "value": "20.2 h",
-   "number": 20.2,
-   "sources": [
-    "https://en.wikipedia.org/wiki/Apollo_16",
-    "https://www.skyatnightmagazine.com/space-missions/how-many-people-walked-on-moon"
-   ]
+   "label": "Amazon",
+   "value": "6,400 km",
+   "number": 6400
   },
   {
-   "label": "Apollo 15 (1971)",
-   "value": "~18.5 h",
-   "number": 18.5,
-   "sources": [
-    "https://en.wikipedia.org/wiki/Apollo_15",
-    "https://www.skyatnightmagazine.com/space-missions/how-many-people-walked-on-moon"
-   ]
+   "label": "Yangtze",
+   "value": "6,300 km",
+   "number": 6300
   },
   {
-   "label": "Apollo 14 (1971)",
-   "value": "9.4 h",
-   "number": 9.4,
-   "sources": [
-    "https://en.wikipedia.org/wiki/Apollo_14",
-    "https://www.skyatnightmagazine.com/space-missions/how-many-people-walked-on-moon"
-   ]
+   "label": "Mississippi–Missouri",
+   "value": "6,275 km",
+   "number": 6275
   }
  ],
- "fact": "Apollo 17 carried Harrison Schmitt, the only professional geologist to have walked on the Moon.",
- "fact_sources": [
-  "https://www.lpi.usra.edu/lunar/missions/apollo/apollo_17/",
-  "https://azmth.space/moon/missions/apollo-17"
- ],
- "source": "NASA, LPI, Britannica",
+ "fact": "The Nile flows through 11 countries.",
+ "source": "Britannica",
  "captions": {
-  "instagram": "Apollo 17 spent more than 22 hours walking on the Moon, which is more than any other mission. 🌕\n\nWhich Apollo mission did you think would be #1? Tell us in the comments!\n\nSource: NASA, Lunar and Planetary Institute, Britannica\n\n#top4 #hejnumbers #apollo #moon #spacehistory #nasa",
-  "tiktok": "Which Apollo mission spent the most time walking on the Moon? 🌕 Did you guess Apollo 17? #hejnumbers #apollo #moon #spacehistory",
-  "linkedin": "Apollo 17 (1972) holds the record for total moonwalk time at about 22 hours. Apollo 16 follows with about 20 hours, and Apollo 15 with about 18.5 hours. Apollo 14 is last in this ranking with about 9.4 hours. Each later mission stayed longer than the one before it. Which space milestone do you find most impressive?\nSource: NASA, Lunar and Planetary Institute\n#SpaceHistory #Apollo #NASA"
+  "instagram": "The Nile takes the crown – but only just. 🌊 Which river surprised you?\n\nSource: Britannica\n#rivers #geography #nile #amazon #top4 #hejnumbers",
+  "tiktok": "Did you guess #1? 🌊 #rivers #geography #top4 #hejnumbers",
+  "linkedin": "The Nile is the world's longest river, but the Amazon is close behind – and some researchers measure it as longer. Which number surprised you?\n\nSource: Britannica\n#data #geography #hejnumbers"
  },
- "bg": "grau",
+ "bg": "sand",
  "format": "reel",
  "files": {
   "reel": "reel.mp4",

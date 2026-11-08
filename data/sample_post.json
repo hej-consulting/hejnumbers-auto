@@ -1,0 +1,18 @@
+{
+ "topic": "longest rivers",
+ "title": "Longest rivers",
+ "hook": "Can you guess #1?",
+ "items": [
+  {"label": "Nile", "value": "6,650 km", "number": 6650},
+  {"label": "Amazon", "value": "6,400 km", "number": 6400},
+  {"label": "Yangtze", "value": "6,300 km", "number": 6300},
+  {"label": "Mississippi–Missouri", "value": "6,275 km", "number": 6275}
+ ],
+ "fact": "The Nile flows through 11 countries.",
+ "source": "Britannica",
+ "captions": {
+  "instagram": "The Nile takes the crown – but only just. 🌊 Which river surprised you?\n\nSource: Britannica\n#rivers #geography #nile #amazon #top4 #hejnumbers",
+  "tiktok": "Did you guess #1? 🌊 #rivers #geography #top4 #hejnumbers",
+  "linkedin": "The Nile is the world's longest river, but the Amazon is close behind – and some researchers measure it as longer. Which number surprised you?\n\nSource: Britannica\n#data #geography #hejnumbers"
+ }
+}

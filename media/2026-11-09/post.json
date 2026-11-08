@@ -1,37 +1,58 @@
 {
- "topic": "longest rivers",
- "title": "Longest rivers",
- "hook": "Can you guess #1?",
+ "topic": "longest reigning monarchs",
+ "title": "Longest-reigning monarchs",
+ "subtitle": "Days on the throne",
+ "hook": "Can you guess who reigned longest?",
  "items": [
   {
-   "label": "Nile",
-   "value": "6,650 km",
-   "number": 6650
+   "label": "Louis XIV (France)",
+   "value": "26,407",
+   "number": 26407,
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_longest-reigning_monarchs",
+    "https://www.guinnessworldrecords.com/world-records/longest-ever-reigns"
+   ]
   },
   {
-   "label": "Amazon",
-   "value": "6,400 km",
-   "number": 6400
+   "label": "Elizabeth II (UK)",
+   "value": "25,782",
+   "number": 25782,
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_longest-reigning_monarchs",
+    "https://www.historyexpose.com/people/longest-reigning-monarchs-history"
+   ]
   },
   {
-   "label": "Yangtze",
-   "value": "6,300 km",
-   "number": 6300
+   "label": "Bhumibol (Thailand)",
+   "value": "25,694",
+   "number": 25694,
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_longest-reigning_monarchs",
+    "https://www.freemalaysiatoday.com/category/leisure/2022/09/10/6-of-the-longest-reigning-monarchs-in-history"
+   ]
   },
   {
-   "label": "Mississippi–Missouri",
-   "value": "6,275 km",
-   "number": 6275
+   "label": "Johann II (Liecht.)",
+   "value": "25,658",
+   "number": 25658,
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_longest-reigning_monarchs",
+    "https://www.historyexpose.com/people/longest-reigning-monarchs-history"
+   ]
   }
  ],
- "fact": "The Nile flows through 11 countries.",
- "source": "Britannica",
+ "fact": "Louis XIV became king at just 4 years old and later outlived both his son and his grandson.",
+ "fact_sources": [
+  "https://www.worldatlas.com/history/5-longest-reigning-monarchs-in-history.html",
+  "https://history.as.uky.edu/reign-louis-xiv-1643-1715-overview"
+ ],
+ "source": "Wikipedia, Guinness World Records",
  "captions": {
-  "instagram": "The Nile takes the crown – but only just. 🌊 Which river surprised you?\n\nSource: Britannica\n#rivers #geography #nile #amazon #top4 #hejnumbers",
-  "tiktok": "Did you guess #1? 🌊 #rivers #geography #top4 #hejnumbers",
-  "linkedin": "The Nile is the world's longest river, but the Amazon is close behind – and some researchers measure it as longer. Which number surprised you?\n\nSource: Britannica\n#data #geography #hejnumbers"
+  "instagram": "Four rulers sat on their thrones for more than 70 years! 👑 Louis XIV of France leads with 72 years and 110 days (26,407 days).\n\nWhich of these reigns surprised you most? Tell us in the comments 👇\n\nSource: Wikipedia, Guinness World Records (sovereign states only)\n\n#top4 #hejnumbers #history #monarchs #didyouknow #historyfacts",
+  "tiktok": "Who reigned the longest in history? 👑 Louis XIV: 72 years and 110 days! Did you guess it? #hejnumbers #history #top4 #didyouknow",
+  "linkedin": "Four monarchs of sovereign states each reigned for more than 70 years. Louis XIV of France holds the record at 72 years and 110 days (26,407 days), ahead of Elizabeth II, Bhumibol Adulyadej and Johann II of Liechtenstein. Which long-serving leader in history do you find most remarkable?\n\nSource: Wikipedia, Guinness World Records\n\n#history #leadership #hejnumbers"
  },
- "bg": "sand",
+ "bg": "grau",
  "format": "reel",
  "files": {
   "reel": "reel.mp4",

@@ -1,0 +1,53 @@
+name: Täglicher Post
+
+on:
+  schedule:
+    - cron: "0 14 * * *"   # 14:00 UTC = 15:00 (Winter) / 16:00 (Sommer) in Berlin
+  workflow_dispatch:
+    inputs:
+      draft:
+        description: "Nur als Entwurf in Buffer anlegen (Test)"
+        type: boolean
+        default: true
+      sample:
+        description: "Beispieldaten statt Recherche (Test ohne Anthropic-Kosten)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-post
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Pakete installieren
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          pip install -r requirements.txt
+      - name: Recherchieren, prüfen, rendern
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SAMPLE: ${{ inputs.sample && '1' || '0' }}
+        run: python -m hejnumbers.generate
+      - name: Dateien ins Repo laden (öffentliche Links für Buffer)
+        run: |
+          git config user.name "hejnumbers-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add media data
+          git commit -m "Post $(TZ=Europe/Berlin date +%F)"
+          git push
+      - name: An Buffer übergeben
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+          DRAFT: ${{ inputs.draft && '1' || '0' }}
+        run: python -m hejnumbers.publish  

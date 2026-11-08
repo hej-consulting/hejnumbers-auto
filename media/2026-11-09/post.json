@@ -1,57 +1,58 @@
 {
- "topic": "oldest universities in Europe",
- "title": "Oldest universities in Europe",
- "hook": "Which one is older: Oxford or Paris?",
+ "topic": "Apollo missions total moonwalk time",
+ "title": "Longest Apollo moonwalk totals",
+ "subtitle": "Total moonwalk time in hours",
+ "hook": "Which Apollo mission spent the longest outside on the Moon?",
  "items": [
   {
-   "label": "Univ. of Bologna",
-   "value": "1088",
-   "number": 938,
+   "label": "Apollo 17 (1972)",
+   "value": "22.1 h",
+   "number": 22.1,
    "sources": [
-    "https://en.wikipedia.org/wiki/University_of_Bologna",
-    "https://bologna.travel/university-of-bologna/"
+    "https://www.nasa.gov/missions/apollo/apollo-17-mission-details/",
+    "https://www.lpi.usra.edu/lunar/missions/apollo/apollo_17/"
    ]
   },
   {
-   "label": "Univ. of Oxford",
-   "value": "c. 1096",
-   "number": 930,
+   "label": "Apollo 16 (1972)",
+   "value": "20.2 h",
+   "number": 20.2,
    "sources": [
-    "https://en.wikipedia.org/wiki/List_of_medieval_universities",
-    "https://euhelpers.pl/blog/europes-oldest-universities"
+    "https://en.wikipedia.org/wiki/Apollo_16",
+    "https://www.skyatnightmagazine.com/space-missions/how-many-people-walked-on-moon"
    ]
   },
   {
-   "label": "Univ. of Paris",
-   "value": "c. 1150",
-   "number": 876,
+   "label": "Apollo 15 (1971)",
+   "value": "~18.5 h",
+   "number": 18.5,
    "sources": [
-    "https://en.wikipedia.org/wiki/University_of_Paris",
-    "https://euhelpers.pl/blog/europes-oldest-universities"
+    "https://en.wikipedia.org/wiki/Apollo_15",
+    "https://www.skyatnightmagazine.com/space-missions/how-many-people-walked-on-moon"
    ]
   },
   {
-   "label": "Univ. of Cambridge",
-   "value": "1209",
-   "number": 817,
+   "label": "Apollo 14 (1971)",
+   "value": "9.4 h",
+   "number": 9.4,
    "sources": [
-    "https://thecollegepost.com/oldest-universities/",
-    "https://thecampusreview.com/history-and-culture/oldest-universities-in-europe/"
+    "https://en.wikipedia.org/wiki/Apollo_14",
+    "https://www.skyatnightmagazine.com/space-missions/how-many-people-walked-on-moon"
    ]
   }
  ],
- "fact": "Cambridge began in 1209 when scholars fled Oxford after a clash with local townspeople.",
+ "fact": "Apollo 17 carried Harrison Schmitt, the only professional geologist to have walked on the Moon.",
  "fact_sources": [
-  "https://www.uopeople.edu/blog/revealed-oldest-universities-in-the-world/",
-  "https://thecampusreview.com/history-and-culture/oldest-universities-in-europe/"
+  "https://www.lpi.usra.edu/lunar/missions/apollo/apollo_17/",
+  "https://azmth.space/moon/missions/apollo-17"
  ],
- "source": "Wikipedia & university histories",
+ "source": "NASA, LPI, Britannica",
  "captions": {
-  "instagram": "Some of Europe's universities are almost 1,000 years old! 🎓 Can you guess which one started it all?\n\nWhich of these four would you have wanted to study at? Tell us below 👇\n\nSource: Wikipedia, university histories (founding years are traditional or approximate)\n\n#top4 #hejnumbers #history #universities #europe #didyouknow",
-  "tiktok": "Which university is the oldest in Europe? 🎓 Did you guess right? #hejnumbers #history #universities #top4",
-  "linkedin": "Europe's oldest universities date back almost a thousand years, with Bologna traditionally founded in 1088, followed by Oxford (c. 1096), Paris (c. 1150) and Cambridge (1209). Founding dates are traditional or approximate, but the order is widely agreed. Which historic institution do you think has shaped modern education the most?\n\nSource: Wikipedia, university histories\n\n#history #education #universities"
+  "instagram": "Apollo 17 spent more than 22 hours walking on the Moon, which is more than any other mission. 🌕\n\nWhich Apollo mission did you think would be #1? Tell us in the comments!\n\nSource: NASA, Lunar and Planetary Institute, Britannica\n\n#top4 #hejnumbers #apollo #moon #spacehistory #nasa",
+  "tiktok": "Which Apollo mission spent the most time walking on the Moon? 🌕 Did you guess Apollo 17? #hejnumbers #apollo #moon #spacehistory",
+  "linkedin": "Apollo 17 (1972) holds the record for total moonwalk time at about 22 hours. Apollo 16 follows with about 20 hours, and Apollo 15 with about 18.5 hours. Apollo 14 is last in this ranking with about 9.4 hours. Each later mission stayed longer than the one before it. Which space milestone do you find most impressive?\nSource: NASA, Lunar and Planetary Institute\n#SpaceHistory #Apollo #NASA"
  },
- "bg": "blaugrau",
+ "bg": "grau",
  "format": "reel",
  "files": {
   "reel": "reel.mp4",

@@ -45,7 +45,7 @@ def main():
         due = datetime.now(berlin) + timedelta(minutes=15)
     due_utc = due.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.000Z")
 
-    video = [{"video": {"url": url(f["reel"]), "thumbnailUrl": url(f["reel_thumb"])}}]
+    video = [{"video": {"url": url(f["reel"]), "metadata": {"thumbnailOffset": 8500}}}]
     single = [{"image": {"url": url(f["image"])}}]
     slides = [{"image": {"url": url(n)}} for n in f.get("carousel", [])]
     fmt = post["format"]

@@ -1,63 +1,63 @@
 {
- "topic": "first modern Olympic host cities",
- "title": "First modern Olympic hosts",
- "subtitle": "Year of the Games",
- "hook": "Can you name the first 4 modern Olympic cities?",
+ "topic": "first countries to launch own satellite",
+ "title": "First nations to launch satellites",
+ "subtitle": "Year of first own-rocket launch",
+ "hook": "Which country was first in orbit? Can you guess #1?",
  "items": [
   {
-   "label": "Athens",
-   "value": "1896",
-   "number": 1896,
+   "label": "Soviet Union",
+   "value": "1957",
+   "number": 1957,
    "sources": [
-    "https://www.olympics.com/en/news/top-reasons-why-the-athens-1896-olympics-were-important-for-modern-sport",
-    "https://www.britannica.com/sports/Olympic-Games"
+    "https://www.nasa.gov/history/65-years-ago-sputnik-ushers-in-the-space-age/",
+    "https://guides.loc.gov/sputnik-and-the-space-race"
    ]
   },
   {
-   "label": "Paris",
-   "value": "1900",
-   "number": 1900,
+   "label": "United States",
+   "value": "1958",
+   "number": 1958,
    "sources": [
-    "https://www.britannica.com/event/Paris-1900-Olympic-Games",
-    "https://guides.loc.gov/chronicling-america-olympics"
+    "https://www.jpl.nasa.gov/missions/explorer-1/",
+    "https://www.nasa.gov/history/60-years-ago-explorer-1-becomes-americas-first-satellite/"
    ]
   },
   {
-   "label": "St. Louis",
-   "value": "1904",
-   "number": 1904,
+   "label": "France",
+   "value": "1965",
+   "number": 1965,
    "sources": [
-    "https://guides.loc.gov/chronicling-america-olympics",
-    "https://architectureofthegames.net/olympic-host-cities/"
+    "https://spacenews.com/nov-26-1965-france-begins-launch-legacy-diamant/",
+    "https://cnes.fr/actualites/y-60-ans-lavenement-de-france-spatiale-diamant-asterix"
    ]
   },
   {
-   "label": "London",
-   "value": "1908",
-   "number": 1908,
+   "label": "Japan",
+   "value": "1970",
+   "number": 1970,
    "sources": [
-    "https://guides.loc.gov/chronicling-america-olympics",
-    "https://architectureofthegames.net/olympic-host-cities/"
+    "https://spacenews.com/ohsumi-japans-first-satellite-reenters-earth-atmosphere-after-33-years/",
+    "https://www.nippon.com/en/japan-data/h00501/japan%E2%80%99s-space-program.html"
    ]
   }
  ],
- "fact": "At Paris 1900, 22 women became the first to compete at an Olympics, and some didn't know it was the Olympics.",
+ "fact": "Japan's first satellite, Ohsumi (24 kg), launched in 1970 and stayed in orbit for 33 years, until 2003.",
  "fact_sources": [
-  "https://www.olympics.com/en/news/five-historic-firsts-for-female-olympians",
-  "https://www.britannica.com/sports/Olympic-Games"
+  "https://spacenews.com/ohsumi-japans-first-satellite-reenters-earth-atmosphere-after-33-years/",
+  "https://universemagazine.com/en/13-first-satellites/"
  ],
- "source": "Olympics.com / Britannica",
+ "source": "NASA, CNES, JAXA/ISAS",
  "captions": {
-  "instagram": "Where did the modern Olympics begin? 🏅 Four cities started it all, from Athens in 1896 to London in 1908.\n\nWhich of these Games would you have loved to attend? Tell us in the comments!\n\nSource: Olympics.com, Britannica, Library of Congress\n\n#top4 #hejnumbers #olympics #history #didyouknow #sportshistory",
-  "tiktok": "The first 4 modern Olympic cities, in order! Did you know #1? 🏅 #hejnumbers #olympics #history #top4",
-  "linkedin": "The modern Olympic Games began in Athens in 1896. They then moved to Paris (1900), St. Louis (1904) and London (1908). Paris 1900 was also the first Games where women competed. Which early Olympic milestone surprises you most?\n\nSource: Olympics.com, Britannica\n\n#history #olympics #hejnumbers"
+  "instagram": "Only four countries had put a satellite into orbit with their own rocket by early 1970. 🛰️ Did you know France was third? Which one surprised you most? Tell us in the comments!\nSource: NASA, CNES, SpaceNews\n#top4 #hejnumbers #history #space #spacerace #satellite",
+  "tiktok": "Who put the first satellites into orbit with their own rockets? 🛰️ Did you guess France was third? #hejnumbers #top4 #spacerace #history",
+  "linkedin": "The Space Age began in 1957 with the Soviet Union's Sputnik 1. The US followed in 1958, France in 1965 and Japan in 1970, each using its own launch vehicle. Which of these milestones do you think changed the world most?\nSource: NASA, CNES, SpaceNews\n#SpaceHistory #Innovation #hejnumbers"
  },
- "bg": "sand",
+ "bg": "grau",
  "format": "reel",
  "files": {
-  "reel": "reel_003745.mp4",
-  "reel_thumb": "reel_003745_thumb.jpg",
-  "image": "image_003745.jpg"
+  "reel": "reel_154640.mp4",
+  "reel_thumb": "reel_154640_thumb.jpg",
+  "image": "image_154640.jpg"
  },
  "date": "2026-11-09"
 }

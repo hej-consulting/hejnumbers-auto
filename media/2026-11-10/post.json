@@ -1,0 +1,69 @@
+{
+ "topic": "largest economies by nominal GDP 2025",
+ "title": "Largest economies in the world",
+ "subtitle": "Nominal GDP 2025, US$ trillion",
+ "hook": "Can you guess the #1 economy?",
+ "items": [
+  {
+   "label": "United States",
+   "value": "~$30.8T",
+   "number": 30.8,
+   "sources": [
+    "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?most_recent_value_desc=true",
+    "https://www.economyinsights.com/p/the-worlds-largest-economies-ranked-by-gdp"
+   ]
+  },
+  {
+   "label": "China",
+   "value": "~$19.5T",
+   "number": 19.5,
+   "sources": [
+    "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?most_recent_value_desc=true",
+    "https://www.worldometers.info/gdp/gdp-by-country/imf-2025-nominal-worldwide/"
+   ]
+  },
+  {
+   "label": "Germany",
+   "value": "~$5.1T",
+   "number": 5.1,
+   "sources": [
+    "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?most_recent_value_desc=true",
+    "https://www.worldometers.info/gdp/gdp-by-country/imf-2025-nominal-worldwide/"
+   ]
+  },
+  {
+   "label": "Japan",
+   "value": "~$4.4T",
+   "number": 4.4,
+   "sources": [
+    "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?most_recent_value_desc=true",
+    "https://www.economyinsights.com/p/the-worlds-largest-economies-ranked-by-gdp"
+   ]
+  }
+ ],
+ "fact": "These 4 countries alone produce about half of the world's total GDP.",
+ "fact_sources": [
+  "https://www.visualcapitalist.com/the-128-trillion-global-economy-in-2026/",
+  "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=1W"
+ ],
+ "source": "IMF & World Bank",
+ "captions": {
+  "instagram": "The world economy in one glance 🌍💰 Just four countries produce about half of everything the world makes! Which one surprised you most? Tell us in the comments 👇\nSource: IMF World Economic Outlook, World Bank (2025 nominal GDP, rounded)\n#top4 #hejnumbers #economy #gdp #worldeconomy #statistics",
+  "tiktok": "Can you guess the world's #1 economy? 💰 Would you have guessed Germany at #3? #hejnumbers #economy #gdp #top4",
+  "linkedin": "The four largest economies by nominal GDP in 2025 are the United States (~$30.8T), China (~$19.5T), Germany (~$5.1T) and Japan (~$4.4T). Together they account for roughly half of global output. Which economy do you expect to climb the ranking next?\nSource: IMF World Economic Outlook, World Bank\n#economy #gdp #globaltrade"
+ },
+ "bg": "sand",
+ "format": "carousel",
+ "files": {
+  "reel": "reel_154547.mp4",
+  "reel_thumb": "reel_154547_thumb.jpg",
+  "image": "image_154547.jpg",
+  "carousel": [
+   "slide_154547_1.jpg",
+   "slide_154547_2.jpg",
+   "slide_154547_3.jpg",
+   "slide_154547_4.jpg"
+  ]
+ },
+ "date": "2026-11-10"
+}

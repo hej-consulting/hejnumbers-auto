@@ -1,0 +1,63 @@
+{
+ "topic": "largest planets by diameter",
+ "title": "Largest planets in our Solar System",
+ "subtitle": "Equatorial diameter in km",
+ "hook": "Can you guess which giant is #1?",
+ "items": [
+  {
+   "label": "Jupiter",
+   "value": "142,984 km",
+   "number": 142984,
+   "sources": [
+    "https://science.nasa.gov/wp-content/uploads/2023/07/hubble-jovian-planets.pdf",
+    "https://www.smartconversion.com/Article/The%20Size%20Of%20The%20Planets%20In%20Our%20Solar%20System/16"
+   ]
+  },
+  {
+   "label": "Saturn",
+   "value": "120,536 km",
+   "number": 120536,
+   "sources": [
+    "https://science.nasa.gov/wp-content/uploads/2023/07/hubble-jovian-planets.pdf",
+    "https://www.sterngucker.de/en/planets/planets-in-order-of-size/"
+   ]
+  },
+  {
+   "label": "Uranus",
+   "value": "51,118 km",
+   "number": 51118,
+   "sources": [
+    "https://science.nasa.gov/wp-content/uploads/2023/07/hubble-jovian-planets.pdf",
+    "https://www.universetoday.com/articles/size-of-the-planets"
+   ]
+  },
+  {
+   "label": "Neptune",
+   "value": "49,528 km",
+   "number": 49528,
+   "sources": [
+    "https://science.nasa.gov/wp-content/uploads/2023/07/hubble-jovian-planets.pdf",
+    "https://www.worldatlas.com/space/what-is-the-largest-planet-in-the-solar-system.html"
+   ]
+  }
+ ],
+ "fact": "About 1,321 Earths could fit inside Jupiter's volume.",
+ "fact_sources": [
+  "https://www.universetoday.com/articles/size-of-the-planets",
+  "https://www.sterngucker.de/en/planets/planets-in-order-of-size/"
+ ],
+ "source": "NASA Planetary Fact Sheet",
+ "captions": {
+  "instagram": "Jupiter is a true giant, but how big are the other three? 🪐\nSwipe to see the 4 largest planets in our Solar System by equatorial diameter.\nWhich result surprised you most? Tell us in the comments!\nSource: NASA Planetary Fact Sheet\n#top4 #hejnumbers #space #planets #solarsystem #astronomy",
+  "tiktok": "Jupiter is huge, but can you guess the other three? 🪐 Which planet surprised you? #hejnumbers #space #planets #top4",
+  "linkedin": "The four largest planets in our Solar System are Jupiter, Saturn, Uranus and Neptune. Jupiter's equatorial diameter is about 142,984 km, almost three times that of Uranus, the third-largest. Which fact about the planets surprises you most? Source: NASA Planetary Fact Sheet. #astronomy #science #hejnumbers"
+ },
+ "bg": "grau",
+ "format": "image",
+ "files": {
+  "reel": "reel_154650.mp4",
+  "reel_thumb": "reel_154650_thumb.jpg",
+  "image": "image_154650.jpg"
+ },
+ "date": "2026-11-12"
+}

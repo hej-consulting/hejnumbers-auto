@@ -1,0 +1,63 @@
+{
+ "topic": "Tallest towers in the world",
+ "title": "Tallest towers in the world",
+ "subtitle": "Height in metres",
+ "hook": "Can you guess the #1 tower?",
+ "items": [
+  {
+   "label": "Tokyo Skytree",
+   "value": "634 m",
+   "number": 634,
+   "sources": [
+    "https://en.wikipedia.org/wiki/Tokyo_Skytree",
+    "https://allthetopten.com/top-10-tallest-freestanding-towers/"
+   ]
+  },
+  {
+   "label": "Canton Tower",
+   "value": "600 m",
+   "number": 600,
+   "sources": [
+    "https://www.britannica.com/place/Canton-Tower",
+    "https://allthetopten.com/top-10-tallest-freestanding-towers/"
+   ]
+  },
+  {
+   "label": "CN Tower",
+   "value": "553 m",
+   "number": 553,
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_tallest_freestanding_structures",
+    "https://worldostats.com/global-stats/tallest-towers-in-the-world/"
+   ]
+  },
+  {
+   "label": "Ostankino Tower",
+   "value": "540 m",
+   "number": 540,
+   "sources": [
+    "https://en.wikipedia.org/wiki/Ostankino_Tower",
+    "https://www.ice.org.uk/what-is-civil-engineering/infrastructure-projects/ostankino-tv-tower"
+   ]
+  }
+ ],
+ "fact": "Moscow's Ostankino Tower was the world's tallest freestanding structure when it opened in 1967.",
+ "fact_sources": [
+  "https://www.ice.org.uk/what-is-civil-engineering/infrastructure-projects/ostankino-tv-tower",
+  "https://www.gpsmycity.com/attractions/ostankino-tower-8278.html"
+ ],
+ "source": "Wikipedia, Britannica, ICE",
+ "captions": {
+  "instagram": "Which tower reaches highest into the sky? 🗼 Tokyo Skytree leads at 634 m, with Canton Tower just behind at 600 m. Which one would you climb first? Tell us in the comments! Sources: Wikipedia, Britannica, ICE. #top4 #hejnumbers #towers #architecture #engineering #didyouknow",
+  "tiktok": "Which tower is the tallest in the world? 🗼 Would you go up #1? #hejnumbers #towers #top4 #architecture",
+  "linkedin": "The world's tallest towers are led by Tokyo Skytree at 634 m, followed by Canton Tower (600 m), CN Tower (553 m) and Ostankino Tower (540 m). Towers are ranked separately from buildings because they have little occupiable floor space. Which of these engineering landmarks would you most like to visit? Sources: Wikipedia, Britannica, ICE. #engineering #architecture #hejnumbers"
+ },
+ "bg": "sand",
+ "format": "reel",
+ "files": {
+  "reel": "reel_154442.mp4",
+  "reel_thumb": "reel_154442_thumb.jpg",
+  "image": "image_154442.jpg"
+ },
+ "date": "2026-11-13"
+}

@@ -1,0 +1,69 @@
+{
+ "topic": "largest oceans by area",
+ "title": "Largest oceans on Earth",
+ "subtitle": "Area in million km²",
+ "hook": "Can you guess which ocean is #1?",
+ "items": [
+  {
+   "label": "Pacific Ocean",
+   "value": "168.7M km²",
+   "number": 168.7,
+   "sources": [
+    "https://www.britannica.com/science/ocean/Major-subdivisions-of-the-oceans",
+    "https://www.worldatlas.com/oceans/how-many-oceans-are-there-in-the-world.html"
+   ]
+  },
+  {
+   "label": "Atlantic Ocean",
+   "value": "85.1M km²",
+   "number": 85.1,
+   "sources": [
+    "https://www.britannica.com/science/ocean/Major-subdivisions-of-the-oceans",
+    "https://en.wikipedia.org/wiki/Atlantic_Ocean"
+   ]
+  },
+  {
+   "label": "Indian Ocean",
+   "value": "70.6M km²",
+   "number": 70.6,
+   "sources": [
+    "https://www.britannica.com/place/Indian-Ocean",
+    "https://www.worldatlas.com/oceans/how-many-oceans-are-there-in-the-world.html"
+   ]
+  },
+  {
+   "label": "Southern Ocean",
+   "value": "22.0M km²",
+   "number": 22.0,
+   "sources": [
+    "https://www.britannica.com/place/Southern-Ocean",
+    "https://www.worldatlas.com/oceans/how-many-oceans-are-there-in-the-world.html"
+   ]
+  }
+ ],
+ "fact": "The Pacific Ocean alone is bigger than all of Earth's land areas combined.",
+ "fact_sources": [
+  "https://continenten.com/en/oceans/",
+  "https://en.wikipedia.org/wiki/Ocean_fisheries"
+ ],
+ "source": "Britannica / NOAA",
+ "captions": {
+  "instagram": "One ocean is bigger than every continent combined. 🌊 Swipe to see the Top 4 largest oceans by area!\n\nWhich ocean do you think is the smallest of the five? Tell us in the comments 👇\n\nSource: Britannica, NOAA (areas without marginal seas; the Arctic Ocean is the smallest and not shown)\n\n#top4 #hejnumbers #oceans #geography #earth #didyouknow",
+  "tiktok": "Can you guess the biggest ocean? 🌊 Which one is the smallest of the five? #hejnumbers #oceans #geography #top4",
+  "linkedin": "The Pacific Ocean covers about 168.7 million km², roughly twice the area of the Atlantic Ocean at 85.1 million km². The Indian Ocean follows with 70.6 million km², and the Southern Ocean with 22.0 million km² is the fourth largest of the five oceans. Figures exclude marginal seas and vary slightly depending on how boundaries are drawn. Did the size gap between #1 and #2 surprise you? Source: Britannica, NOAA. #Geography #Oceans #DataStorytelling"
+ },
+ "bg": "grau",
+ "format": "carousel",
+ "files": {
+  "reel": "reel_153359.mp4",
+  "reel_thumb": "reel_153359_thumb.jpg",
+  "image": "image_153359.jpg",
+  "carousel": [
+   "slide_153359_1.jpg",
+   "slide_153359_2.jpg",
+   "slide_153359_3.jpg",
+   "slide_153359_4.jpg"
+  ]
+ },
+ "date": "2026-11-14"
+}

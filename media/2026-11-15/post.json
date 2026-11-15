@@ -1,0 +1,63 @@
+{
+ "topic": "most populous countries 2025",
+ "title": "Most populous countries",
+ "subtitle": "Population in 2025",
+ "hook": "Which country has the most people?",
+ "items": [
+  {
+   "label": "India",
+   "value": "1.46 B",
+   "number": 1464,
+   "sources": [
+    "https://statranker.org/population/world-population-ranking-2025-top-200-countries-by-population-size/",
+    "https://worldpopulationreview.com/countries?os=vb."
+   ]
+  },
+  {
+   "label": "China",
+   "value": "1.42 B",
+   "number": 1416,
+   "sources": [
+    "https://statranker.org/population/world-population-ranking-2025-top-200-countries-by-population-size/",
+    "https://worldpopulationreview.com/countries?os=vb."
+   ]
+  },
+  {
+   "label": "United States",
+   "value": "347 M",
+   "number": 347,
+   "sources": [
+    "https://statranker.org/population/world-population-ranking-2025-top-200-countries-by-population-size/",
+    "https://atlaswise.org/compare/rankings/most-populated-countries/"
+   ]
+  },
+  {
+   "label": "Indonesia",
+   "value": "286 M",
+   "number": 286,
+   "sources": [
+    "https://statranker.org/population/world-population-ranking-2025-top-200-countries-by-population-size/",
+    "https://worldpopulationreview.com/countries?os=vb."
+   ]
+  }
+ ],
+ "fact": "India and China together are home to over a third of everyone on Earth.",
+ "fact_sources": [
+  "https://statisticsoftheworld.com/most-populous-countries",
+  "https://continenten.com/en/most-populous-countries/"
+ ],
+ "source": "UN World Population Prospects 2024",
+ "captions": {
+  "instagram": "Two countries, over a third of humanity. 🌏 Swipe to see the Top 4 most populous countries in 2025!\n\nWhich one surprised you most? Tell us in the comments 👇\n\nSource: UN World Population Prospects 2024\n\n#top4 #hejnumbers #population #countries #geography #worldfacts",
+  "tiktok": "Can you guess the most populous country? 🌍 Which one surprised you? #hejnumbers #top4 #population #countries",
+  "linkedin": "India leads the 2025 population ranking with about 1.46 billion people, followed by China (1.42 billion), the United States (347 million) and Indonesia (286 million). India and China together account for more than a third of the global population. Which demographic trend will shape the next decade most? Source: UN World Population Prospects 2024. #demographics #population #data"
+ },
+ "bg": "sand",
+ "format": "reel",
+ "files": {
+  "reel": "reel_153452.mp4",
+  "reel_thumb": "reel_153452_thumb.jpg",
+  "image": "image_153452.jpg"
+ },
+ "date": "2026-11-15"
+}

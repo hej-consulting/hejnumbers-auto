@@ -1,0 +1,69 @@
+{
+ "topic": "largest moons in the solar system by diameter",
+ "title": "Largest moons in the Solar System",
+ "subtitle": "Diameter in km",
+ "hook": "Can you guess the #1 moon?",
+ "items": [
+  {
+   "label": "Ganymede (Jupiter)",
+   "value": "5,268 km",
+   "number": 5268,
+   "sources": [
+    "https://www2.jpl.nasa.gov/galileo/moons/ganymede.html",
+    "https://www.kosmoskop.com/moons/ganymede/"
+   ]
+  },
+  {
+   "label": "Titan (Saturn)",
+   "value": "5,150 km",
+   "number": 5150,
+   "sources": [
+    "https://www.worldatlas.com/space/biggest-moons-in-our-solar-system.html",
+    "https://pressbooks.online.ucf.edu/astronomybc/chapter/12-2-the-galilean-moons-of-jupiter/"
+   ]
+  },
+  {
+   "label": "Callisto (Jupiter)",
+   "value": "4,821 km",
+   "number": 4821,
+   "sources": [
+    "https://en.wikipedia.org/wiki/Callisto_(moon)",
+    "https://www.sciencenewstoday.org/10-largest-moons-in-the-solar-system"
+   ]
+  },
+  {
+   "label": "Io (Jupiter)",
+   "value": "3,643 km",
+   "number": 3643,
+   "sources": [
+    "https://www.worldatlas.com/space/biggest-moons-in-our-solar-system.html",
+    "https://www.physics.unlv.edu/~jeffery/astro/solar_system/moons_interesting.html"
+   ]
+  }
+ ],
+ "fact": "Ganymede (5,268 km) is wider than the planet Mercury (4,879 km), yet it has only about 45% of Mercury's mass.",
+ "fact_sources": [
+  "https://www2.jpl.nasa.gov/galileo/moons/ganymede.html",
+  "https://www.kosmoskop.com/moons/ganymede/"
+ ],
+ "source": "NASA/JPL",
+ "captions": {
+  "instagram": "Three of the four biggest moons in the Solar System orbit Jupiter! 🌙🪐 Can you guess which one is #1? Ganymede is even wider than Mercury. Which moon would you visit first? Tell us in the comments! 👇\nSource: NASA/JPL, DLR\n#top4 #hejnumbers #space #moons #solarsystem #astronomy",
+  "tiktok": "Which moon is the biggest in the Solar System? 🌙 Ganymede is wider than Mercury! Would you guess #1? #hejnumbers #space #moons #astronomy",
+  "linkedin": "Ganymede, a moon of Jupiter, is the largest moon in the Solar System at 5,268 km in diameter. It is followed by Titan (5,150 km), Callisto (4,821 km) and Io (3,643 km). Ganymede is even wider than the planet Mercury. Which moon do you think deserves the next space mission? Source: NASA/JPL, DLR. #space #astronomy #hejnumbers"
+ },
+ "bg": "grau",
+ "format": "carousel",
+ "files": {
+  "reel": "reel_155004.mp4",
+  "reel_thumb": "reel_155004_thumb.jpg",
+  "image": "image_155004.jpg",
+  "carousel": [
+   "slide_155004_1.jpg",
+   "slide_155004_2.jpg",
+   "slide_155004_3.jpg",
+   "slide_155004_4.jpg"
+  ]
+ },
+ "date": "2026-11-17"
+}

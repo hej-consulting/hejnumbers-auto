@@ -1,0 +1,63 @@
+{
+ "topic": "heaviest living birds",
+ "title": "Heaviest living birds",
+ "subtitle": "Max weight in kg",
+ "hook": "Can you guess which bird is #1?",
+ "items": [
+  {
+   "label": "Common ostrich",
+   "value": "157 kg",
+   "number": 157,
+   "sources": [
+    "https://animals.howstuffworks.com/birds/biggest-bird-in-world.htm",
+    "https://ourplnt.com/largest-birds/"
+   ]
+  },
+  {
+   "label": "Somali ostrich",
+   "value": "130 kg",
+   "number": 130,
+   "sources": [
+    "https://animals.howstuffworks.com/birds/biggest-bird-in-world.htm",
+    "https://factanimal.com/animal-facts/biggest-birds-in-the-world/"
+   ]
+  },
+  {
+   "label": "Southern cassowary",
+   "value": "85 kg",
+   "number": 85,
+   "sources": [
+    "https://www.worldatlas.com/articles/the-heaviest-living-birds-in-the-world.html",
+    "https://animals.howstuffworks.com/birds/biggest-bird-in-world.htm"
+   ]
+  },
+  {
+   "label": "Northern cassowary",
+   "value": "75 kg",
+   "number": 75,
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_largest_birds",
+    "https://www.worldatlas.com/articles/the-heaviest-living-birds-in-the-world.html"
+   ]
+  }
+ ],
+ "fact": "The ostrich can run at up to 70 km/h, making it the fastest bird on land.",
+ "fact_sources": [
+  "https://en.wikipedia.org/wiki/Ostrich",
+  "https://www.birdspot.co.uk/numbers/the-10-biggest-birds-in-the-world"
+ ],
+ "source": "Wikipedia, WorldAtlas",
+ "captions": {
+  "instagram": "Meet the heavyweights of the bird world! 🐦 Two ostriches and two cassowaries top the list, and none of them can fly. Which one would you least want to meet in the wild? Tell us below! 👇\nSource: Wikipedia, WorldAtlas (maximum recorded weights)\n#top4 #hejnumbers #birds #animals #nature #ostrich",
+  "tiktok": "Which bird is the heaviest in the world? 🤯 Did you guess the ostrich? #hejnumbers #birds #animals #top4",
+  "linkedin": "The four heaviest living birds are all flightless. The common ostrich leads at up to ~157 kg, and the Somali ostrich follows at ~130 kg. Cassowaries take 3rd and 4th place. Which of these records surprised you most?\nSource: Wikipedia, WorldAtlas (maximum recorded weights)\n#nature #animals #datavisualization"
+ },
+ "bg": "sand",
+ "format": "reel",
+ "files": {
+  "reel": "reel_155823.mp4",
+  "reel_thumb": "reel_155823_thumb.jpg",
+  "image": "image_155823.jpg"
+ },
+ "date": "2026-11-18"
+}

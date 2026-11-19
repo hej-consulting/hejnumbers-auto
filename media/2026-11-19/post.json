@@ -1,0 +1,63 @@
+{
+ "topic": "Tallest Egyptian pyramids (current height)",
+ "title": "Tallest ancient pyramids",
+ "subtitle": "Current height in metres",
+ "hook": "Can you guess #1?",
+ "items": [
+  {
+   "label": "Great Pyramid, Giza",
+   "value": "138.5 m",
+   "number": 138.5,
+   "sources": [
+    "https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza",
+    "https://www.civitatis.com/blog/en/biggest-pyramid-in-the-world/"
+   ]
+  },
+  {
+   "label": "Pyramid of Khafre",
+   "value": "136.4 m",
+   "number": 136.4,
+   "sources": [
+    "https://en.wikipedia.org/wiki/Pyramid_of_Khafre",
+    "https://egypttimetravel.com/pyramid-of-khafre"
+   ]
+  },
+  {
+   "label": "Red Pyramid",
+   "value": "105 m",
+   "number": 105.0,
+   "sources": [
+    "https://www.sacred-destinations.com/egypt/dahshur-north-pyramid",
+    "https://en.wikipedia.org/wiki/Red_Pyramid"
+   ]
+  },
+  {
+   "label": "Bent Pyramid",
+   "value": "104.7 m",
+   "number": 104.7,
+   "sources": [
+    "https://en.wikipedia.org/wiki/Bent_Pyramid",
+    "https://www.memphistours.co.uk/egypt/bent-pyramid-at-dahshur"
+   ]
+  }
+ ],
+ "fact": "The Great Pyramid was the world's tallest structure for over 3,800 years, until 1311.",
+ "fact_sources": [
+  "https://www.history.com/articles/tallest-buildings-in-the-world",
+  "https://en.wikipedia.org/wiki/History_of_the_world's_tallest_buildings"
+ ],
+ "source": "Wikipedia, Britannica",
+ "captions": {
+  "instagram": "Four giants of ancient Egypt, and one still wears the crown after 4,500 years! 🏜️ Can you guess #1 before you swipe?\n\nWhich pyramid would you most like to visit? Tell us in the comments!\n\nSource: Wikipedia, Britannica, Egyptian monument records\n\n#top4 #hejnumbers #pyramids #egypt #ancienthistory #history",
+  "tiktok": "Which ancient pyramid is the tallest today? 🤔 Guess before you watch! #hejnumbers #pyramids #history #top4",
+  "linkedin": "Today's Top 4 looks at the tallest ancient pyramids by current height. The Great Pyramid of Giza leads at 138.5 m, followed by Khafre's Pyramid at 136.4 m. Which ancient structure do you find most impressive? Source: Wikipedia, Britannica. #history #engineering #hejnumbers"
+ },
+ "bg": "grau",
+ "format": "image",
+ "files": {
+  "reel": "reel_154405.mp4",
+  "reel_thumb": "reel_154405_thumb.jpg",
+  "image": "image_154405.jpg"
+ },
+ "date": "2026-11-19"
+}

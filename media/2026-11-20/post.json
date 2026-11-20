@@ -1,0 +1,63 @@
+{
+ "topic": "Largest official gold reserves by country",
+ "title": "Biggest national gold reserves",
+ "subtitle": "Official gold reserves, tonnes",
+ "hook": "Which country holds the most gold? 🪙",
+ "items": [
+  {
+   "label": "United States",
+   "value": "8,133 t",
+   "number": 8133,
+   "sources": [
+    "https://tradingeconomics.com/country-list/gold-reserves",
+    "https://en.wikipedia.org/wiki/Gold_holdings"
+   ]
+  },
+  {
+   "label": "Germany",
+   "value": "~3,350 t",
+   "number": 3350,
+   "sources": [
+    "https://tradingeconomics.com/country-list/gold-reserves",
+    "https://mintedmetal.com/analysis/central-bank-gold-reserves/"
+   ]
+  },
+  {
+   "label": "Italy",
+   "value": "2,452 t",
+   "number": 2452,
+   "sources": [
+    "https://tradingeconomics.com/country-list/gold-reserves",
+    "https://en.wikipedia.org/wiki/Gold_holdings"
+   ]
+  },
+  {
+   "label": "France",
+   "value": "2,437 t",
+   "number": 2437,
+   "sources": [
+    "https://tradingeconomics.com/country-list/gold-reserves",
+    "https://en.wikipedia.org/wiki/Gold_holdings"
+   ]
+  }
+ ],
+ "fact": "The US holds more official gold than Germany and Italy combined, about 8,133 t versus 5,801 t.",
+ "fact_sources": [
+  "https://farmonaut.com/mining/top-10-countries-with-largest-gold-reserves-2026",
+  "https://www.thedatavisual.com/2026/10/countries-with-largest-gold-reserves-in.html"
+ ],
+ "source": "World Gold Council / IMF",
+ "captions": {
+  "instagram": "Gold is still a pillar of national wealth. 🪙 The top 4 holders are the US, Germany, Italy and France, and the US holds more than the next two combined.\n\nWhich country do you think will be next to join this club? Tell us in the comments! 👇\n\nSource: World Gold Council / IMF (2026)\n\n#top4 #hejnumbers #gold #economy #goldreserves #datavisualization",
+  "tiktok": "Which country holds the most gold? 🪙 The US has over 8,000 tonnes! Who do you think is next? #hejnumbers #gold #economy #top4",
+  "linkedin": "The four largest official gold reserves belong to the US (about 8,133 t), Germany (about 3,350 t), Italy (2,452 t) and France (2,437 t). The US holds more than Germany and Italy combined. Which countries do you expect to climb this ranking as central banks keep buying gold? Source: World Gold Council / IMF (2026). #gold #economy #centralbanks"
+ },
+ "bg": "sand",
+ "format": "reel",
+ "files": {
+  "reel": "reel_154701.mp4",
+  "reel_thumb": "reel_154701_thumb.jpg",
+  "image": "image_154701.jpg"
+ },
+ "date": "2026-11-20"
+}

@@ -1,0 +1,69 @@
+{
+ "topic": "Most abundant elements in the human body by mass",
+ "title": "Elements in the human body",
+ "subtitle": "Share of body mass in %",
+ "hook": "What are YOU made of? Can you guess #1?",
+ "items": [
+  {
+   "label": "Oxygen",
+   "value": "~65%",
+   "number": 65.0,
+   "sources": [
+    "https://nigms.nih.gov/biobeat/2015/07/elements-that-keep-us-alive-also-give-color-to-fireworks",
+    "https://en.wikipedia.org/wiki/Composition_of_the_human_body"
+   ]
+  },
+  {
+   "label": "Carbon",
+   "value": "~18%",
+   "number": 18.0,
+   "sources": [
+    "https://beyond.britannica.com/what-is-the-precise-chemical-composition-of-human-body-all-elements-in-000",
+    "https://www.news-medical.net/life-sciences/What-Chemical-Elements-are-Found-in-the-Human-Body.aspx"
+   ]
+  },
+  {
+   "label": "Hydrogen",
+   "value": "~10%",
+   "number": 10.0,
+   "sources": [
+    "https://www.news-medical.net/life-sciences/What-Chemical-Elements-are-Found-in-the-Human-Body.aspx",
+    "https://nigms.nih.gov/biobeat/2015/07/elements-that-keep-us-alive-also-give-color-to-fireworks"
+   ]
+  },
+  {
+   "label": "Nitrogen",
+   "value": "~3%",
+   "number": 3.0,
+   "sources": [
+    "https://beyond.britannica.com/what-is-the-precise-chemical-composition-of-human-body-all-elements-in-000",
+    "https://nigms.nih.gov/biobeat/2015/07/elements-that-keep-us-alive-also-give-color-to-fireworks"
+   ]
+  }
+ ],
+ "fact": "By atom count, ~60% of your body is hydrogen, yet it's only ~10% of your mass.",
+ "fact_sources": [
+  "https://en.wikipedia.org/wiki/Composition_of_the_human_body",
+  "https://www.physicsoftheuniverse.com/what-is-the-human-body-and-the-earth-the-sun-the-universe-made-of.html"
+ ],
+ "source": "NIH (NIGMS), Britannica",
+ "captions": {
+  "instagram": "You're mostly oxygen! 🧬 Just four elements make up about 96% of your body mass. Which one did you expect to be #1? Tell us in the comments! 👇\nSource: NIH (NIGMS), Britannica\n#top4 #hejnumbers #humanbody #science #chemistry #didyouknow",
+  "tiktok": "Four elements make up ~96% of your body. Did you guess oxygen is #1? 🧬 #hejnumbers #humanbody #science #top4",
+  "linkedin": "Four elements account for about 96% of human body mass: oxygen (~65%), carbon (~18%), hydrogen (~10%) and nitrogen (~3%). Oxygen leads mainly because the body is roughly 60% water. Which of these numbers surprised you most?\nSource: NIH (NIGMS), Britannica\n#science #humanbody #data"
+ },
+ "bg": "grau",
+ "format": "carousel",
+ "files": {
+  "reel": "reel_154131.mp4",
+  "reel_thumb": "reel_154131_thumb.jpg",
+  "image": "image_154131.jpg",
+  "carousel": [
+   "slide_154131_1.jpg",
+   "slide_154131_2.jpg",
+   "slide_154131_3.jpg",
+   "slide_154131_4.jpg"
+  ]
+ },
+ "date": "2026-11-21"
+}
